@@ -100,7 +100,7 @@ backgroundPattern="
 
 function backgroundDraw() {
   clear # Cleaning the screen
-  echo "${backgroundBanner}" | lolcat # --animate --speed 32 --duration 8 # Printing the banner
+  echo "${backgroundBanner}" | lolcat --animate --speed 32 --duration 8 # Printing the banner
   echo "${backgroundPattern}" | lolcat # Printing the pattern
 }
 
